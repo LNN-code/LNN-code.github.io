@@ -18,4 +18,17 @@
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
   </entry>
+  <entry>
+    <title>博客上传代码</title>
+    <url>/2021/09/26/%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#生成静态文件</span><br><span class="line">hexo g</span><br><span class="line">#完成部署</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+      </tags>
+  </entry>
 </search>
