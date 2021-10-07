@@ -93,7 +93,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">173</span>
+            <span class="post-count">530</span>
         </span>
     </span>
 
@@ -102,7 +102,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> Reading time≈</span>
-            <span class="post-count">1 min</span>
+            <span class="post-count">2 min</span>
         </span>
     </span>
 </div>
@@ -125,7 +125,17 @@
 <p>$$<br>\Delta Zy=f(x_{0} ,y_{0}+\Delta y)-f(x_{0},y_{0}) 或f(x_{0},y)-f(x_{0},y_{0})<br>$$</p>
 <p>$$<br>F(x,y)在M_{0}处的全增量<br>$$</p>
 <p>$$<br>\Delta Z=f(x_{0}+\Delta x ,y_{0}+\Delta y)-f(x_{0},y_{0}) 或f(x,y)-f(x_{0},y_{0})<br>$$</p>
-<h1 id="偏导数"><a href="#偏导数" class="headerlink" title="偏导数"></a>偏导数</h1> 
+<h1 id="偏导数"><a href="#偏导数" class="headerlink" title="偏导数"></a>偏导数</h1><p>定义：<br>$$<br>z=f(x,y){\color{Blue} } ,((x，y)\in D,f(x,y)在(x,y)处对x,y皆可偏导，称 ，IF \forall (x_{0},y_{0})\in D,f(x,y)在(x,y)处对x,y皆可偏导，称{fx}’ (x,y),{fy}’ (x,y)为f(x,y)对x,y的偏导数，称为偏导数<br>$$</p>
+<p>已知：<br>$$<br>z=f(x,y){\color{Blue} } ,((x，y)\in D ),M_{0}(x_{0},y_{0})<br>$$</p>
+<p>$$<br>IF \lim_{\Delta x \to 0} \frac{\Delta Z_{x} }{\Delta x} \quad \exists \quad称f(x,y)在M_{0}处关于x可偏导，极限值称为f(x,y)在M_{0}处关于x的偏导数，记：\{fx}’ (x_{0},y_{0})<br>，\frac{\partial z}{\partial x} |<em>{(x</em>{0},y_{0})}<br>$$</p>
+<p>$$<br>IF \lim_{\Delta y \to 0} \frac{\Delta Z_{y} }{\Delta y}\quad \exists\quad 称f(x,y)在M_{0}处关于y可偏导，极限值称为f(x,y)在M_{0}处关于y的偏导数，记：\{fy}’ (x_{0},y_{0})<br>，\frac{\partial z}{\partial y} |<em>{(x</em>{0},y_{0})}<br>$$</p>
+<p>简记为：<br>$$<br>\lim_{\Delta x \to 0} \frac{\Delta Z_{x} }{\Delta x}={fx}’ (x_{0},y_{0})<br>，\frac{\partial z}{\partial x} |<em>{(x</em>{0},y_{0})}<br>$$</p>
+<p>$$<br>\lim_{\Delta y \to 0} \frac{\Delta Z_{y} }{\Delta y}={fy}’ (x_{0},y_{0})<br>，\frac{\partial z}{\partial y} |<em>{(x</em>{0},y_{0})}<br>$$</p>
+<p><strong>解法：</strong></p>
+<p>​        <strong>求x的偏导数时，将所求式子中除了x以外的未知数全部当作常数进行求导</strong></p>
+<p>​        <strong>求y的偏导数时，将所求式子中除了y以外的未知数全部当作常数进行求导</strong></p>
+<p>​        <strong>求偏导数就是求出x的偏导数和y的偏导数</strong></p>
+<h1 id="高阶偏导数"><a href="#高阶偏导数" class="headerlink" title="高阶偏导数"></a>高阶偏导数</h1> 
       <!-- reward -->
       
       <div id="reword-out">
@@ -539,6 +549,29 @@
     viewer_init()
 </script> 
 <!-- MathJax -->
+ <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+      tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+  });
+
+  MathJax.Hub.Queue(function() {
+      var all = MathJax.Hub.getAllJax(), i;
+      for(i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+      }
+  });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.6/unpacked/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+  var ayerConfig = {
+    mathjax: true,
+  };
+</script>
 
 <!-- Katex -->
 
