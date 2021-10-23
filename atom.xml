@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-10-07T10:59:41.751Z</updated>
+  <updated>2021-10-23T03:49:53.515Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,81 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title></title>
+    <link href="http://example.com/2021/10/23/%E8%B0%83%E5%BA%A6%E7%AE%97%E6%B3%95/"/>
+    <id>http://example.com/2021/10/23/%E8%B0%83%E5%BA%A6%E7%AE%97%E6%B3%95/</id>
+    <published>2021-10-23T03:49:53.503Z</published>
+    <updated>2021-10-23T03:49:53.515Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Tips：各种调度算法的学习思路：&lt;/p&gt;
+&lt;p&gt;1.算法思想&lt;/p&gt;
+&lt;p&gt;2.算法规则&lt;/p&gt;
+&lt;p&gt;3，这种调度算法是用于作业调度还是进程调度&lt;/p&gt;
+&lt;p&gt;4.抢占式还是非抢占式&lt;/p&gt;
+&lt;p&gt;5.优缺点&lt;/p&gt;
+&lt;p&gt;6.是否会导致饥饿（饥饿：某进程/作业长期得不</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2021/10/08/JSP%E8%AF%AD%E6%B3%95/"/>
+    <id>http://example.com/2021/10/08/JSP%E8%AF%AD%E6%B3%95/</id>
+    <published>2021-10-08T02:43:24.004Z</published>
+    <updated>2021-10-08T06:45:14.539Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;title: JSP语法&lt;br&gt;date: 2021-10-08 10:43:23&lt;br&gt;tags:&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>VScode创建JSP项目</title>
+    <link href="http://example.com/2021/10/07/VScode%E5%88%9B%E5%BB%BAJSP%E9%A1%B9%E7%9B%AE/"/>
+    <id>http://example.com/2021/10/07/VScode%E5%88%9B%E5%BB%BAJSP%E9%A1%B9%E7%9B%AE/</id>
+    <published>2021-10-07T13:58:01.000Z</published>
+    <updated>2021-10-07T14:10:16.929Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;在vscode中按下ctrl-shift-p-输入maven点击下图指出项-上图-或者在工作区右键选择-下图&quot;&gt;&lt;a href=&quot;#在vscode中按下ctrl-shift-p-输入maven点击下图指出项-上图-或者在工作区右键选择-下图&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>偏导数</title>
     <link href="http://example.com/2021/10/06/%E5%81%8F%E5%AF%BC%E6%95%B0/"/>
     <id>http://example.com/2021/10/06/%E5%81%8F%E5%AF%BC%E6%95%B0/</id>
     <published>2021-10-06T07:11:28.000Z</published>
-    <updated>2021-10-07T10:59:41.751Z</updated>
+    <updated>2021-10-13T14:09:01.425Z</updated>
     
     
       
