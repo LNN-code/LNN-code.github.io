@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-10-23T03:49:53.515Z</updated>
+  <updated>2021-10-25T01:29:30.909Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -18,23 +18,41 @@
   
   <entry>
     <title></title>
+    <link href="http://example.com/2021/10/25/%E8%B0%83%E5%BA%A6%E7%AE%97%E6%B3%95%E7%9A%84%E8%AF%84%E4%BB%B7%E6%8C%87%E6%A0%87/"/>
+    <id>http://example.com/2021/10/25/%E8%B0%83%E5%BA%A6%E7%AE%97%E6%B3%95%E7%9A%84%E8%AF%84%E4%BB%B7%E6%8C%87%E6%A0%87/</id>
+    <published>2021-10-25T01:29:30.890Z</published>
+    <updated>2021-10-25T01:29:30.909Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;调度算法的评价指标&quot;&gt;&lt;a href=&quot;#调度算法的评价指标&quot; class=&quot;headerlink&quot; title=&quot;调度算法的评价指标&quot;&gt;&lt;/a&gt;调度算法的评价指标&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;h3 id=&quot;目录&quot;&gt;&lt;a href=&quot;#目录&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
     <link href="http://example.com/2021/10/23/%E8%B0%83%E5%BA%A6%E7%AE%97%E6%B3%95/"/>
     <id>http://example.com/2021/10/23/%E8%B0%83%E5%BA%A6%E7%AE%97%E6%B3%95/</id>
     <published>2021-10-23T03:49:53.503Z</published>
-    <updated>2021-10-23T03:49:53.515Z</updated>
+    <updated>2021-10-25T01:10:18.226Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;Tips：各种调度算法的学习思路：&lt;/p&gt;
-&lt;p&gt;1.算法思想&lt;/p&gt;
-&lt;p&gt;2.算法规则&lt;/p&gt;
-&lt;p&gt;3，这种调度算法是用于作业调度还是进程调度&lt;/p&gt;
-&lt;p&gt;4.抢占式还是非抢占式&lt;/p&gt;
-&lt;p&gt;5.优缺点&lt;/p&gt;
-&lt;p&gt;6.是否会导致饥饿（饥饿：某进程/作业长期得不</summary>
+    <summary type="html">&lt;h1 id=&quot;调度算法&quot;&gt;&lt;a href=&quot;#调度算法&quot; class=&quot;headerlink&quot; title=&quot;调度算法&quot;&gt;&lt;/a&gt;调度算法&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;目录&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#***先来先服务（FCFS，first come first</summary>
         
       
     
