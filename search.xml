@@ -185,6 +185,14 @@
 ]]></content>
   </entry>
   <entry>
+    <title>线程</title>
+    <url>/2021/10/17/%E7%BA%BF%E7%A8%8B/</url>
+    <content><![CDATA[<p><strong>线程</strong>——比进程更小的能<strong>独立运行</strong>的基本单位</p>
+<h2 id="线程"><a href="#线程" class="headerlink" title="线程"></a>线程</h2><p>定义：是作为调度和分派的基本单位，不同时作为拥有资源的单位</p>
+<p>目的：是为了减少程序在并发执行时所付出的时空开销，使OS具有更好的并发性</p>
+<h2 id="线程与进程（理解为：继承父子关系）"><a href="#线程与进程（理解为：继承父子关系）" class="headerlink" title="线程与进程（理解为：继承父子关系）"></a>线程与进程（理解为：继承父子关系）</h2>]]></content>
+  </entry>
+  <entry>
     <title></title>
     <url>/2021/10/08/JSP%E8%AF%AD%E6%B3%95/</url>
     <content><![CDATA[<p>title: JSP语法<br>date: 2021-10-08 10:43:23<br>tags:</p>
