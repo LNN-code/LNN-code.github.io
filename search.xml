@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title></title>
+    <title>调度算法的评价指标</title>
     <url>/2021/10/25/%E8%B0%83%E5%BA%A6%E7%AE%97%E6%B3%95%E7%9A%84%E8%AF%84%E4%BB%B7%E6%8C%87%E6%A0%87/</url>
     <content><![CDATA[<h1 id="调度算法的评价指标"><a href="#调度算法的评价指标" class="headerlink" title="调度算法的评价指标"></a>调度算法的评价指标</h1><ul>
 <li><h3 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h3><ul>
@@ -33,10 +33,16 @@
 平均带权周转时间=\frac{各作业带权周转时间之和}{作业数}</script><h2 id="等待时间"><a href="#等待时间" class="headerlink" title="等待时间"></a>等待时间</h2><p>等待时间：指作业/进程<strong>处于等待处理机状态时间之和</strong>，等待时间越长，用户满意度越低</p>
 <h2 id="响应时间"><a href="#响应时间" class="headerlink" title="响应时间"></a>响应时间</h2><p>响应时间：指从用户<strong>提交请求</strong>到<strong>首次产生响应</strong>所用的时间。</p>
 ]]></content>
+      <categories>
+        <category>操作系统</category>
+      </categories>
+      <tags>
+        <tag>进程管理</tag>
+      </tags>
   </entry>
   <entry>
-    <title></title>
-    <url>/2021/10/23/%E8%B0%83%E5%BA%A6%E7%AE%97%E6%B3%95/</url>
+    <title>调度算法</title>
+    <url>/2021/10/25/%E8%B0%83%E5%BA%A6%E7%AE%97%E6%B3%95/</url>
     <content><![CDATA[<h1 id="调度算法"><a href="#调度算法" class="headerlink" title="调度算法"></a>调度算法</h1><ul>
 <li>目录<ul>
 <li><a href="#***先来先服务（FCFS，first come first serve）***">先来先服务（FCFS）</a></li>
@@ -183,6 +189,12 @@
 <p>​        会导致饥饿</p>
 <p><img src="https://i.loli.net/2021/10/24/ZNuC1bncA4oxBgO.png" alt="image.png"></p>
 ]]></content>
+      <categories>
+        <category>操作系统</category>
+      </categories>
+      <tags>
+        <tag>进程管理</tag>
+      </tags>
   </entry>
   <entry>
     <title>线程</title>
@@ -191,12 +203,17 @@
 <h2 id="线程"><a href="#线程" class="headerlink" title="线程"></a>线程</h2><p>定义：是作为调度和分派的基本单位，不同时作为拥有资源的单位</p>
 <p>目的：是为了减少程序在并发执行时所付出的时空开销，使OS具有更好的并发性</p>
 <h2 id="线程与进程（理解为：继承父子关系）"><a href="#线程与进程（理解为：继承父子关系）" class="headerlink" title="线程与进程（理解为：继承父子关系）"></a>线程与进程（理解为：继承父子关系）</h2>]]></content>
+      <categories>
+        <category>操作系统</category>
+      </categories>
+      <tags>
+        <tag>进程管理</tag>
+      </tags>
   </entry>
   <entry>
     <title></title>
     <url>/2021/10/08/JSP%E8%AF%AD%E6%B3%95/</url>
-    <content><![CDATA[<p>title: JSP语法<br>date: 2021-10-08 10:43:23<br>tags:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;%</span><br><span class="line">	response.sendRedirect(request.getContextPath()+&quot;/login.jsp&quot;);</span><br><span class="line"> %&gt;</span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<p>title: JSP语法<br>date: 2021-10-08 10:43:23<br>tags:“JSP”<br>categories: “编程语言”<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;%</span><br><span class="line">	response.sendRedirect(request.getContextPath()+&quot;/login.jsp&quot;);</span><br><span class="line"> %&gt;</span><br></pre></td></tr></table></figure></p>
 <p>response处理用户请求;</p>
 <p>sendRedirect()函数的作用是重定向网页，向浏览器发送一个特殊的Header，然后由浏览器来做重定向，转到指定的页面;</p>
 <p>request是获取用户的请求;</p>
@@ -214,6 +231,12 @@
 <h2 id="输入web，选择maven-archetype-webapp回车"><a href="#输入web，选择maven-archetype-webapp回车" class="headerlink" title="输入web，选择maven-archetype-webapp回车"></a>输入web，选择maven-archetype-webapp回车</h2><p><a href="https://imgtu.com/i/59mF4f"><img src="https://z3.ax1x.com/2021/10/07/59mF4f.png" alt="59mF4f.png"></a></p>
 <h2 id="选择1-4"><a href="#选择1-4" class="headerlink" title="选择1.4"></a>选择1.4</h2><p><img src="https://i.bmp.ovh/imgs/2021/10/d5f288f88b08594b.png" alt=""></p>
 <h2 id=""><a href="#" class="headerlink" title=" "></a> </h2>]]></content>
+      <categories>
+        <category>编译器</category>
+      </categories>
+      <tags>
+        <tag>编译器新建项目</tag>
+      </tags>
   </entry>
   <entry>
     <title>偏导数</title>
