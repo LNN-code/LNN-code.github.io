@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-11-01T13:12:23.276Z</updated>
+  <updated>2021-11-01T13:18:50.267Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,15 +21,15 @@
     <link href="http://example.com/2021/11/01/java/"/>
     <id>http://example.com/2021/11/01/java/</id>
     <published>2021-11-01T12:58:56.000Z</published>
-    <updated>2021-11-01T13:12:23.276Z</updated>
+    <updated>2021-11-01T13:18:50.267Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;JAVA包装类&quot;&gt;&lt;a href=&quot;#JAVA包装类&quot; class=&quot;headerlink&quot; title=&quot;JAVA包装类&quot;&gt;&lt;/a&gt;JAVA包装类&lt;/h1&gt;&lt;p&gt;[TOC]&lt;/p&gt;
-&lt;h2 id=&quot;基础类型对应的8个包装类&quot;&gt;&lt;a</summary>
+    <summary type="html">&lt;h1&gt;&lt;span id=&quot;java包装类&quot;&gt;JAVA包装类&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;[TOC]&lt;/p&gt;
+&lt;h2&gt;&lt;span</summary>
         
       
     
