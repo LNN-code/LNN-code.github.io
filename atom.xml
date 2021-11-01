@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-11-01T13:47:10.435Z</updated>
+  <updated>2021-11-01T13:49:18.091Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2021/11/01/java/"/>
     <id>http://example.com/2021/11/01/java/</id>
     <published>2021-11-01T12:58:56.000Z</published>
-    <updated>2021-11-01T13:47:10.435Z</updated>
+    <updated>2021-11-01T13:49:18.091Z</updated>
     
     
       
@@ -29,8 +29,10 @@
         
         
     <summary type="html">&lt;h1&gt;&lt;span id=&quot;java包装类&quot;&gt; JAVA包装类&lt;/span&gt;&lt;/h1&gt;
-&lt;p&gt;&amp;lt;%- toc(str, [options]) %&amp;gt;&lt;/p&gt;
-&lt;h2&gt;&lt;span id=&quot;基础类型对应的8个包装类&quot;&gt;</summary>
+&lt;p&gt;&amp;lt;%- toc(page.content, {&lt;br&gt;
+class: ‘post-toc’,&lt;br&gt;
+list_number: true&lt;br&gt;
+})</summary>
         
       
     
