@@ -15,7 +15,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title>调度算法的评价指标 |  淦</title>
+      <title>专业实习作业（七） |  淦</title>
   <meta name="generator" content="hexo-theme-ayer">
       
       <link rel="shortcut icon" href="/favicon.ico" />
@@ -62,7 +62,7 @@
     <main class="content on">
       <section class="outer">
   <article
-  id="post-调度算法的评价指标"
+  id="post-专业实习作业（七）"
   class="article article-type-post"
   itemscope
   itemprop="blogPost"
@@ -73,7 +73,7 @@
     <header class="article-header">
        
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  调度算法的评价指标
+  专业实习作业（七）
 </h1>
  
 
@@ -81,11 +81,11 @@
     </header>
      
     <div class="article-meta">
-      <a href="/2021/10/25/%E8%B0%83%E5%BA%A6%E7%AE%97%E6%B3%95%E7%9A%84%E8%AF%84%E4%BB%B7%E6%8C%87%E6%A0%87/" class="article-date">
-  <time datetime="2021-10-25T01:20:00.000Z" itemprop="datePublished">2021-10-25</time>
+      <a href="/2021/11/02/%E4%B8%93%E4%B8%9A%E5%AE%9E%E4%B9%A0%E4%BD%9C%E4%B8%9A%EF%BC%88%E4%B8%83%EF%BC%89/" class="article-date">
+  <time datetime="2021-11-02T15:44:37.000Z" itemprop="datePublished">2021-11-02</time>
 </a> 
   <div class="article-category">
-    <a class="article-category-link" href="/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/">操作系统</a>
+    <a class="article-category-link" href="/categories/%E4%B8%93%E4%B8%9A%E5%AE%9E%E4%B9%A0/">专业实习</a>
   </div>
   
 <div class="word_count">
@@ -93,7 +93,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">322</span>
+            <span class="post-count">499</span>
         </span>
     </span>
 
@@ -102,7 +102,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> Reading time≈</span>
-            <span class="post-count">1 min</span>
+            <span class="post-count">2 min</span>
         </span>
     </span>
 </div>
@@ -117,35 +117,22 @@
   
     <div class="article-entry" itemprop="articleBody">
        
-  <h1 id="调度算法的评价指标"><a href="#调度算法的评价指标" class="headerlink" title="调度算法的评价指标"></a>调度算法的评价指标</h1><ul>
-<li><h3 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h3><ul>
-<li><p><a href="#CPU利用率">CPU利用率</a></p>
-</li>
-<li><p><a href="#系统吞吐量">系统吞吐量</a></p>
-</li>
-<li><p><a href="#周转时间">周转时间</a></p>
-</li>
-<li><p><a href="#等待时间">等待时间</a></p>
-</li>
-<li><p><a href="#响应时间">响应时间</a></p>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="CPU利用率"><a href="#CPU利用率" class="headerlink" title="CPU利用率"></a>CPU利用率</h2><p>CPU利用率：指CPU“忙碌”的时间占总时间的比例。</p>
-<script type="math/tex; mode=display">
-利用率=\frac{忙碌的时间}{总时间}</script><p><img src="https://i.loli.net/2021/10/25/qNiokeCWAmBQjJL.png" alt="image.png"></p>
-<h2 id="系统吞吐量"><a href="#系统吞吐量" class="headerlink" title="系统吞吐量"></a>系统吞吐量</h2><p>系统吞吐量：单位时间内完成作业的数量</p>
-<script type="math/tex; mode=display">
-系统吞吐量=\frac{总共完成了多少道作业}{总共花了多少时间}</script><p><img src="https://i.loli.net/2021/10/25/4hwXRDIcQkCKVNT.png" alt="image.png"></p>
-<h2 id="周转时间"><a href="#周转时间" class="headerlink" title="周转时间"></a>周转时间</h2><p>周转时间：指从<strong>作业被提交给系统</strong>开始，到<strong>作业完成为止</strong>的这段时间间隔。</p>
-<p><img src="https://i.loli.net/2021/10/25/rtxZ61BEsXQSecY.png" alt="image.png"></p>
-<script type="math/tex; mode=display">
-作业周转时间=作业完成时间-作业提交给系统的时间</script><script type="math/tex; mode=display">
-平均周转时间=\frac{各作业周转时间之和}{作业数}</script><script type="math/tex; mode=display">
-带权周转时间=\frac{作业周转时间}{作业实际运行时间}=\frac{作业完成时间-作业提交给系统的时间}{作业实际运行时间}</script><script type="math/tex; mode=display">
-平均带权周转时间=\frac{各作业带权周转时间之和}{作业数}</script><h2 id="等待时间"><a href="#等待时间" class="headerlink" title="等待时间"></a>等待时间</h2><p>等待时间：指作业/进程<strong>处于等待处理机状态时间之和</strong>，等待时间越长，用户满意度越低</p>
-<h2 id="响应时间"><a href="#响应时间" class="headerlink" title="响应时间"></a>响应时间</h2><p>响应时间：指从用户<strong>提交请求</strong>到<strong>首次产生响应</strong>所用的时间。</p>
+  <h2><span id="题目"> 题目：</span></h2>
+<p>客户信息包括：姓名、年龄、积分</p>
+<ol>
+<li>实现添加客户信息</li>
+<li>实现所有客户信息显示</li>
+<li>对客户的积分进行排序（升序、降序）</li>
+</ol>
+<p>实现方式：<br>
+A、使用 多个“数组”来完成<br>
+B、使用“对象数组”来完成</p>
+<p>推荐使用：数组作为方法参数 和 对象作为方法参数 来完成</p>
+<h2><span id="代码部分"> 代码部分</span></h2>
+<h3><span id="clientjava"> Client.java</span></h3>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Client</span> </span>&#123;</span><br><span class="line">    <span class="keyword">final</span> <span class="keyword">int</span> max=<span class="number">10</span>;</span><br><span class="line">    <span class="comment">//属性声明</span></span><br><span class="line">    String name;</span><br><span class="line">    <span class="keyword">int</span> age,point;</span><br><span class="line">    <span class="comment">//对象数组</span></span><br><span class="line">    Client[] clients=<span class="keyword">new</span> Client[max];</span><br><span class="line"></span><br><span class="line">    <span class="comment">//输入客户信息</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">AddInformation</span><span class="params">(Client C,<span class="keyword">int</span> i)</span></span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(i&lt;max)&#123;</span><br><span class="line">            clients[i]=<span class="keyword">new</span> Client();<span class="comment">//实例化对象数组</span></span><br><span class="line">            clients[i].name= C.name;</span><br><span class="line">            clients[i].age= C.age;</span><br><span class="line">            clients[i].point=C.point;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">	</span><br><span class="line">    <span class="comment">//显示客户信息</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">show</span><span class="params">(<span class="keyword">int</span> j)</span></span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;客户姓名\t客户年龄\t客户积分&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;------------------------------------------------&quot;</span>);</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;j;i++) &#123;</span><br><span class="line">            System.out.println(clients[i].name + <span class="string">&quot;\t&quot;</span> + clients[i].age + <span class="string">&quot;\t&quot;</span> + clients[i].point);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">	</span><br><span class="line">    <span class="comment">//进行排序</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span>  <span class="keyword">void</span> <span class="title">upsort</span><span class="params">(<span class="keyword">int</span> z)</span></span>&#123;</span><br><span class="line">        <span class="comment">//声明变量</span></span><br><span class="line">        <span class="keyword">int</span> flag;</span><br><span class="line">        <span class="comment">//排序</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;z-<span class="number">1</span>;i++) &#123;</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">0</span>; j &lt; z-i-<span class="number">1</span>; j++) &#123;</span><br><span class="line">                <span class="keyword">if</span> (clients[j].point &gt; clients[j+<span class="number">1</span>].point) &#123;</span><br><span class="line">                    flag = clients[j].point;</span><br><span class="line">                    clients[j].point = clients[j+<span class="number">1</span>].point;</span><br><span class="line">                    clients[j+<span class="number">1</span>].point = flag;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">//显示排序后的信息</span></span><br><span class="line">        System.out.println(<span class="string">&quot;排序后的客户信息是：&quot;</span>);</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;z;i++) &#123;</span><br><span class="line">            System.out.println(clients[i].name + <span class="string">&quot;\t&quot;</span> + clients[i].age + <span class="string">&quot;\t&quot;</span> + clients[i].point);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3><span id="testclientjava"> TestClient.java</span></h3>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">TestClient</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//变量声明（i作为输入结束的条件，j为输入次数）</span></span><br><span class="line">        String i;</span><br><span class="line">        <span class="keyword">int</span> j=<span class="number">0</span>;</span><br><span class="line">        <span class="comment">//创建对象</span></span><br><span class="line">        Scanner in=<span class="keyword">new</span> Scanner(System.in);</span><br><span class="line">        Client customer =<span class="keyword">new</span> Client();</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        <span class="keyword">do</span> &#123;</span><br><span class="line">            System.out.print(<span class="string">&quot;请输入客户姓名：&quot;</span>);</span><br><span class="line">            customer.name=in.next();</span><br><span class="line">            System.out.print(<span class="string">&quot;请输入客户年龄：&quot;</span>);</span><br><span class="line">            customer.age=in.nextInt();</span><br><span class="line">            System.out.print(<span class="string">&quot;请输入客户积分：&quot;</span>);</span><br><span class="line">            customer.point=in.nextInt();</span><br><span class="line">            customer.AddInformation(customer,j++);</span><br><span class="line">            System.out.print(<span class="string">&quot;是否继续输入[Y/N]：&quot;</span>);</span><br><span class="line">            i=in.next();</span><br><span class="line">        &#125;<span class="keyword">while</span> (<span class="string">&quot;y&quot;</span>.equalsIgnoreCase(i));</span><br><span class="line">        customer.show(j);</span><br><span class="line">        customer.upsort(j);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
  
       <!-- reward -->
       
@@ -216,12 +203,12 @@
     <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://example.com/2021/10/25/%E8%B0%83%E5%BA%A6%E7%AE%97%E6%B3%95%E7%9A%84%E8%AF%84%E4%BB%B7%E6%8C%87%E6%A0%87/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://example.com/2021/11/02/%E4%B8%93%E4%B8%9A%E5%AE%9E%E4%B9%A0%E4%BD%9C%E4%B8%9A%EF%BC%88%E4%B8%83%EF%BC%89/" alt="微信分享二维码">
     </div>
 </div>
 
 <div id="share-mask"></div>  
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86/" rel="tag">进程管理</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Java/" rel="tag">Java</a></li></ul>
 
     </footer>
   </div>
@@ -229,19 +216,10 @@
    
   <nav class="article-nav">
     
-      <a href="/2021/10/29/%E4%B8%93%E4%B8%9A%E5%AE%9E%E4%B9%A0%EF%BC%88%E4%BA%94%EF%BC%89/" class="article-nav-link">
-        <strong class="article-nav-caption">上一篇</strong>
-        <div class="article-nav-title">
-          
-            专业实习（五）
-          
-        </div>
-      </a>
     
-    
-      <a href="/2021/10/25/%E8%B0%83%E5%BA%A6%E7%AE%97%E6%B3%95/" class="article-nav-link">
+      <a href="/2021/11/02/%E4%B8%93%E4%B8%9A%E5%AE%9E%E4%B9%A0%EF%BC%88%E4%B8%83%EF%BC%89/" class="article-nav-link">
         <strong class="article-nav-caption">下一篇</strong>
-        <div class="article-nav-title">调度算法</div>
+        <div class="article-nav-title">专业实习（七）</div>
       </a>
     
   </nav>
